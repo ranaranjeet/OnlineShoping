@@ -5,6 +5,10 @@ private String Name;
 private int phone;
 private String email;
 private String password;
+private String confPassword;
+public void setConfPassword(String confPassword) {
+	this.confPassword = confPassword;
+}
 public String getName() {
 	return Name;
 }
@@ -28,5 +32,8 @@ public String getPassword() {
 }
 public void setPassword(String password) {
 	this.password = password;
+}
+public String getConfPassword() {
+	return confPassword;
 }
 }
